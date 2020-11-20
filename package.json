@@ -1,0 +1,35 @@
+{
+  "name": "monokai-visual-studio",
+  "displayName": "Monokai Visual Studio",
+  "description": "A monokai theme for people that watch Brackeys!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "publisher": "AryanAhire",
+  "author": {
+    "name": "Aryan Ahire"
+  },
+  "homepage": "https://github.com/def-SpaceWar/monokai-visual-studio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/def-SpaceWar/monokai-visual-studio"
+  },
+  "bugs": {
+    "url": "https://github.com/def-SpaceWar/monokai-visual-studio/issues"
+  },
+  "icon": "icon.png",
+  "license": "GPLv3",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai from Visual Studio",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai from Visual Studio-color-theme.json"
+      }
+    ]
+  }
+}
