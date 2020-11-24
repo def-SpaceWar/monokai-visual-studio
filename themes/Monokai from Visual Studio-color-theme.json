@@ -139,7 +139,7 @@
       "name": "Struct",
       "scope": ["entity.name.type.struct"],
       "settings": {
-        "foreground": "#52B69F"
+        "foreground": "#47A08C"
       }
     },
     {
@@ -369,7 +369,7 @@
   "semanticTokenColors": {
     "namespace": "#f8f8f2",
     "class": "#FD971F",
-    "struct": "#52B69F",
+    "struct": "#47A08C",
     "operatorOverloaded": "#f92672"
   }
 }
