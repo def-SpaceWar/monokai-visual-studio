@@ -13,10 +13,10 @@
     "editor.background": "#272822",
     "editor.foreground": "#f8f8f2",
     "selection.background": "#ccccc7",
-    "editor.selectionHighlightBackground": "#575b6180",
-    "editor.selectionBackground": "#878b9180",
-    "editor.wordHighlightBackground": "#4a4a7680",
-    "editor.wordHighlightStrongBackground": "#6a6a9680",
+    "editor.selectionHighlightBackground": "#48473D",
+    "editor.selectionBackground": "#48473D",
+    "editor.wordHighlightBackground": "#3e3d32",
+    "editor.wordHighlightStrongBackground": "#3e3d32",
     "editor.lineHighlightBackground": "#3e3d32",
     "editorCursor.foreground": "#f8f8f0",
     "editorWhitespace.foreground": "#464741",
@@ -41,7 +41,6 @@
     "statusBar.debuggingBackground": "#75715E",
     "activityBar.background": "#272822",
     "activityBar.foreground": "#f8f8f2",
-    "activityBar.dropBackground": "#414339",
     "sideBar.background": "#1e1f1c",
     "sideBarSectionHeader.background": "#272822",
     "pickerGroup.foreground": "#75715E",
@@ -147,12 +146,6 @@
       "scope": [
         "keyword.control",
         "constant.other.color",
-        "meta.tag",
-        "punctuation.definition.tag",
-        "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
@@ -172,11 +165,7 @@
     },
     {
       "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
+      "scope": ["meta.tag.sgml", "markup.deleted.git_gutter"],
       "settings": {
         "foreground": "#66D9EF"
       }
@@ -361,6 +350,34 @@
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+    {
+      "name": "html tag",
+      "scope": [
+        "punctuation.definition.tag",
+        "punctuation.definition.tag.html",
+        "entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#f92672"
+      }
+    },
+    {
+      "name": "html tag end",
+      "scope": [
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "name": "html tag property",
+      "scope": ["meta.tag"],
       "settings": {
         "foreground": "#66D9EF"
       }

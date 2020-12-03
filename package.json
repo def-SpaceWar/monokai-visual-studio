@@ -2,7 +2,7 @@
   "name": "monokai-visual-studio",
   "displayName": "Monokai Visual Studio",
   "description": "A monokai theme for people that watch Brackeys!",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.51.0"
   },
