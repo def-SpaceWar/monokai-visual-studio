@@ -2,7 +2,7 @@
   "name": "monokai-visual-studio",
   "displayName": "Monokai Visual Studio",
   "description": "A monokai theme for people that watch Brackeys!",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "vscode": "^1.51.0"
   },
@@ -29,6 +29,11 @@
         "label": "Monokai from Visual Studio",
         "uiTheme": "vs-dark",
         "path": "./themes/Monokai from Visual Studio-color-theme.json"
+      },
+      {
+        "label": "Monokai from Visual Studio - Sublime",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai from Visual Studio Sublime-color-theme.json"
       }
     ]
   }
