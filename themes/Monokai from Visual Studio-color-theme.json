@@ -2,7 +2,7 @@
   "name": "Monokai from Visual Studio",
   "type": "dark",
   "colors": {
-    "editor.background": "#272623",
+    "editor.background": "#272822",
     "editor.foreground": "#f8f8f2",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editorIndentGuide.background": "#404040",
@@ -18,8 +18,15 @@
     "menu.foreground": "#CCCCCC",
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D",
-    "sideBarSectionHeader.background": "#0000",
-    "sideBarSectionHeader.border": "#ccc3"
+    "sideBarSectionHeader.background": "#2E2D31",
+    "sideBarSectionHeader.border": "#ccc3",
+    "activityBar.background": "#2E2D31",
+    "sideBar.background": "#262526",
+    "tab.activeBackground": "#0071D1",
+    "titleBar.activeBackground": "#2E2D31",
+    "editorGutter.addedBackground": "#576C2E",
+    "editorGutter.modifiedBackground": "#F3EA80",
+    "editorGutter.deletedBackground": "#F83535"
   },
   "tokenColors": [
     {
@@ -84,7 +91,6 @@
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
-        "punctuation.separator.hash",
         "constant.language.boolean"
       ],
       "settings": {
@@ -324,12 +330,28 @@
       "settings": {
         "foreground": "#66D9EF"
       }
+    },
+    {
+      "name": "Preprocessor Keyword",
+      "scope": ["keyword.preprocessor", "punctuation.separator.hash"],
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "Preprocessor Text",
+      "scope": "string.unquoted.preprocessor",
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
     }
   ],
   "semanticTokenColors": {
     "namespace": "#f8f8f2",
     "class": "#FD971F",
     "struct": "#47A08C",
-    "operatorOverloaded": "#f92672"
+    "operatorOverloaded": "#f92672",
+    "preprocessorKeyword": "#E6DB74",
+    "preprocessorText": "#f8f8f2"
   }
 }
