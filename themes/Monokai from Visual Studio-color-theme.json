@@ -2,6 +2,8 @@
   "name": "Monokai from Visual Studio",
   "type": "dark",
   "colors": {
+    "editorGroup.emptyBackground": "#262526",
+    "welcomePage.background": "#262526",
     "editor.background": "#272822",
     "editor.foreground": "#f8f8f2",
     "editor.inactiveSelectionBackground": "#3A3D41",
@@ -31,7 +33,10 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#75715E"
@@ -50,35 +55,50 @@
     },
     {
       "name": "Colors",
-      "scope": ["constant.other.color", "punctuation"],
+      "scope": [
+        "constant.other.color",
+        "punctuation"
+      ],
       "settings": {
         "foreground": "#f8f8f2"
       }
     },
     {
       "name": "Invalid",
-      "scope": ["invalid", "invalid.illegal"],
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
       "settings": {
         "foreground": "#FF5370"
       }
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.modifier"
+      ],
       "settings": {
         "foreground": "#66D9EF"
       }
     },
     {
       "name": "Class",
-      "scope": ["storage.type", "entity.name.type", "inherit-class"],
+      "scope": [
+        "storage.type",
+        "entity.name.type",
+        "inherit-class"
+      ],
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
       "name": "Struct",
-      "scope": ["entity.name.type.struct"],
+      "scope": [
+        "entity.name.type.struct"
+      ],
       "settings": {
         "foreground": "#47A08C"
       }
@@ -99,14 +119,19 @@
     },
     {
       "name": "Accessor",
-      "scope": ["punctuation.accessor"],
+      "scope": [
+        "punctuation.accessor"
+      ],
       "settings": {
         "foreground": "#f92672"
       }
     },
     {
       "name": "Tag",
-      "scope": ["meta.tag.sgml", "markup.deleted.git_gutter"],
+      "scope": [
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
       "settings": {
         "foreground": "#66D9EF"
       }
@@ -151,14 +176,19 @@
     },
     {
       "name": "operator",
-      "scope": ["keyword.operator"],
+      "scope": [
+        "keyword.operator"
+      ],
       "settings": {
         "foreground": "#F92672"
       }
     },
     {
       "name": "Other Variable, String Link",
-      "scope": ["support.other.variable", "entity.name.type.namespace"],
+      "scope": [
+        "support.other.variable",
+        "entity.name.type.namespace"
+      ],
       "settings": {
         "foreground": "#f8f8f2"
       }
@@ -205,14 +235,20 @@
     },
     {
       "name": "Class, Support",
-      "scope": ["entity.name", "support.type", "support.class"],
+      "scope": [
+        "entity.name",
+        "support.type",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#FD971F"
       }
     },
     {
       "name": "Entity Types",
-      "scope": ["support.type"],
+      "scope": [
+        "support.type"
+      ],
       "settings": {
         "foreground": "#FD971F"
       }
@@ -326,14 +362,19 @@
     },
     {
       "name": "html tag property",
-      "scope": ["meta.tag"],
+      "scope": [
+        "meta.tag"
+      ],
       "settings": {
         "foreground": "#66D9EF"
       }
     },
     {
       "name": "Preprocessor Keyword",
-      "scope": ["keyword.preprocessor", "punctuation.separator.hash"],
+      "scope": [
+        "keyword.preprocessor",
+        "punctuation.separator.hash"
+      ],
       "settings": {
         "foreground": "#E6DB74"
       }
